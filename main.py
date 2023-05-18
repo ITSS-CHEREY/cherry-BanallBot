@@ -1,6 +1,6 @@
-# Powered by @Darkranger00 | TELE:- @aadillllll
+# Powered by @DRACULA_CHEERY | TELE:- 𝗠𝗥. 𝗖𝗛𝗘𝗥𝗥𝗬
 # Dear Pero ppls Plish Don't remove this line from here🌚
-# created by Aadil Shiekh
+# created by 𝗠𝗥. 𝗖𝗛𝗘𝗥𝗥𝗬
 import logging
 import re
 import os
@@ -24,13 +24,13 @@ from datetime import datetime
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
-API_ID = 10738643
-API_HASH = "da61e3a08b5ac78ce28b4a4cd957aeec"
-BOT_TOKEN = "6151806723:AAEOkTGYlhQNPjrUHZAZBUSnIv-qDnTv-LI"
-OWNER_ID = "6163840192"
-SUDO_ID = "1463712862"
-LUCIFER = "5044329488"
-COWNER_ID = "5716978554"
+API_ID = "18694512"
+API_HASH = "8af50cdbc40eaa8e1595a253517dbb6f"
+BOT_TOKEN = "5628827519:AAF1aNp7brRtXH8Rg4Fu8uW2p8Ncf4O9sac"
+OWNER_ID = "5572586305"
+SUDO_ID = "5572586305"
+LUCIFER = "5572586305"
+COWNER_ID = "5572586305"
 OP  = [ int(OWNER_ID), int(SUDO_ID), int(COWNER_ID), int(LUCIFER)]
 #TelegramClient..
 sree = TelegramClient(
@@ -39,16 +39,18 @@ sree = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "aadillllll"
-repo = "https://github.com/Darkanger00/Banall"
+Owner = "@DRACULA_CHEERY"
+repo = "https://t.me/AdulT_R00M"
+
+
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/crushbot_support"), Button.url("••ʀєρο••", f'{repo}')]
+    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/AdulT_R00M", Button.url("••ʀєρο••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/d0db33935f4950e0d4d58.jpg",
+            file="https://graph.org/file/67b5620d9013137cbe41c.jpg",
             caption=startxt.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -62,7 +64,7 @@ async def start(event):
     if event.sender.id not in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/d0db33935f4950e0d4d58.jpg",
+            file="https://graph.org/file/67b5620d9013137cbe41c.jpg",
             caption=startxt2.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -77,19 +79,19 @@ async def start(event):
 
 @sree.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/crushbot_support"), Button.url("••ʀєρο••", f'{repo}')]
+    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/AdulT_R00M"), Button.url("••ʀєρο••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/d0db33935f4950e0d4d58.jpg",
+            file="https://graph.org/file/67b5620d9013137cbe41c.jpg",
             caption=hlptxt.format(event.sender.first_name, event.sender.id),
             link_preview=False,
             buttons=buttns
         )
     if event.sender.id not in OP:
         await event.reply(
-            "Huh Nigga!\nThis is not for you lol 😑\n\nMake your own bot from this [Repository⚡](https://github.com/Darkranger00/Banall)",
+            "ʜʏ ᴍᴜɴɴᴀ ʙʜᴀɪʏᴀ!\nʏᴇ ᴛᴀʀᴇ ʟɪʏᴀ ɴʜɪ ʜᴀɪ ʟᴏʟ 😑\n\nᴀᴘɴᴀ ᴋᴜᴅ ᴋᴀ ʙᴏᴛ ʙɴᴀᴏ ʀᴇᴘᴏ ɢʀᴏᴜᴘ ꜱᴇ ʟᴇ ʟᴏ [Repository⚡](https://t.me/AdulT_R00M)",
             link_preview=False,
         )       
 
@@ -101,14 +103,14 @@ async def ping(event):
         txxt = await event.reply(t)
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await txxt.edit(f"γєαн ι αм αℓιϐє 🔥!!\n\nριиg ροиg 🏓\n   ➥ `{ms} ms`")
+        await txxt.edit(f"ʀᴀɴᴅɪ ɢʀᴏᴜᴘ ᴋᴏɴꜱᴀ ᴜᴅɴᴀ ʜᴀɪ 😈!!\n\nριиg ροиg 🏓\n   ➥ `{ms} ms`")
 
 
 @sree.on(events.NewMessage(pattern="^/banall"))
 async def bun(event):
   if event.sender.id in OP:
    if not event.is_group:
-        Rep = f"__Brush Are You Serious 🙄.\nUse This Command In Any Group!!__"
+        Rep = f"__ᴘᴀᴋᴀ ᴄʜᴏᴅ ᴅᴜ ɢʀᴏᴜᴘ ᴋɪ ᴍᴀᴀ🙄.\nUse This Command In Any Group!!__"
         await event.reply(Rep)
    else:
        await event.delete()
@@ -117,9 +119,9 @@ async def bun(event):
        admin = cht.admin_rights
        creator = cht.creator
        if not admin and not creator:
-           await event.reply("__I Don't Have Sufficient Rights To Do This.__")
+           await event.reply("ᴘᴀᴋᴀ ᴄʜᴏᴅ ᴅᴜ ɢʀᴏᴜᴘ ᴋɪ ᴍᴀᴀ__")
            return
-       hmm =  await event.reply("__Ye Bilek Migic Begins🥳...__")
+       hmm =  await event.reply("ᴀʙ ɢʀᴏᴜᴘ ᴋɪ ᴍᴀᴀ ᴄʜᴜᴅᴇɢɪ😫")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
@@ -152,20 +154,20 @@ async def leave(z):
         mkc = ("".join(z.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(z.text) > 7:
             mkb = int(mkc[0])
-            tet = "__Wait Leaving...__"
+            tet = "__ᴡᴀɪᴛ ʟᴇᴀᴠɪɴɢ...__"
             hm = await z.reply(tet)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await hm.edit("**Succesfully Lefted!!**")
+                await hm.edit("**ᴀʙ ᴊᴀʀᴀ ʜᴜ ɢʀᴏᴜᴘ ꜱᴇ!**")
             except Exception as e:
                 await hm.edit(str(e))
         else:
             mkb = z.chat_id
-            txt = "__Wait Leaving...__"
+            txt = "__ᴡᴀɪᴛ ʟᴇᴀᴠɪɴɢ...__"
             ok = await z.reply(txt)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await ok.edit("**Succesfully Lefted!!**")
+                await ok.edit("**ᴀʙ ᴊᴀʀᴀ ʜᴜ ɢʀᴏᴜᴘ ꜱᴇ!!**")
             except Exception as e:
                 await z.edit(str(e))
 
@@ -176,7 +178,7 @@ async def ver(events):
 
 
 print("Your Bot  Deployed Successfully ✅")
-print("Join @crushbot_support if you facing any kind of issue!!")
+print("Join @AdulT_R00M if you facing any kind of issue!!")
 
 
 
